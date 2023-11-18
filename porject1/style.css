@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: rgb(1,69,83); 
+    display: flex;
+    justify-content: right;
+    & a {
+         color: #ffffff;
+        padding: 15px;
+        text-decoration: none;
+        margin-right: 50px;
+        &:hover {
+            color: gray;
+        }
+    }
+   
+
+ }
+#Home{
+    display: flex;
+    justify-content: left;
+}
+section{
+    min-height: 100vh;
+}
+.head-content{
+    margin-top: 5rem;
+    font-size:150%;
+    background:  rgba(0,151,255,1);
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    width: 350px;
+    height: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+.about{
+    display: flex;
+}
+img{
+    width: 300px; 
+    height: auto;
+    border-radius: 10%;
+    margin-left: 200px;
+    margin-top: 6rem;
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+ }
+
+ .color{
+    font-size: 150%;
+    color: #ffffff;
+    background:  rgba(0,151,255,1);
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    justify-content:center ;
+    align-items: center;
+   
+}
+
+.text-about{
+    margin-top: 2rem;
+    font-size: 100%;
+    color: #ffffff;
+    background:  rgba(0,151,255,1);
+    display: flex;
+    width: 600px;
+    height: 150px;
+    margin-top: 15rem;
+    margin-left: 3rem;
+    padding: 10px;
+    justify-content:center;
+    text-align: start;
+    align-items: center;
+    border-radius: 30px;
+    
+   
+}
+
+.skill{
+    margin-top: 30rem;
+    font-size: 150%;
+    color: #ffffff;
+    background:  rgba(0,151,255,1);
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    justify-content:center ;
+    align-items: center;
+}
+
+.box1,.box2,.box3{
+    background: #D9D9D9;
+    width: 1000px;
+    height: 30px;
+    border-radius: 20px;
+}
+.box11{
+    
+    background: aqua;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+.box12{
+    background: aqua;
+    width: 700px;
+    height: 30px;
+    border-radius: 20px;
+}
+.box13{
+    background: aqua;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+.box1,.box11,.box2,.box12,.box3,.box13{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact{
+    
+    margin-top: 30rem;
+    font-size: 150%;
+    color: #ffffff;
+    background:  rgba(0,151,255,1);
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    justify-content:center ;
+    align-items: center;
+
+}
+
+h5{
+    color: white;
+    margin: 10px;
+    font-size: 100%;
+}
+footer{
+    background-color: black;
+    color: darkslateblue;
+    text-align: c;
+    padding: 70px;
+  }  
+i{
+    font-size: 30px;
+    color: blue;
+}
+i:hover{
+    color: aqua;
+}
+
+
+
+
+
+
